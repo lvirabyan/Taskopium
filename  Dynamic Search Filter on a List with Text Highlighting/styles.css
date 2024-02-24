@@ -1,0 +1,12 @@
+#books-container {
+    margin-top: 20px;
+  }
+  .highlight {
+    background-color: yellow;
+    font-weight: bold;
+  }
+  #books-table th, #books-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
