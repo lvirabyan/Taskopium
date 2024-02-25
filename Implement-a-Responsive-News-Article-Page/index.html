@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Responsive News Article</title>
+</head>
+<body>
+    <header>
+        <h1>Breaking News</h1>
+    </header>
+    <main>
+        <article>
+            <img srcset="./image/Image_circle.jpg 1200w,
+            ./image/pexels-james-wheeler-414612.jpg 800w,
+            ./image/depositphotos_209309416-stock-photo-sunrise-lake-colorful-autumn.jpg 400w"
+                 sizes="(max-width: 600px) 100vw,
+                        (max-width: 768px) 50vw,
+                        33.3vw"
+                 src="./image/Image_circle.jpg"
+                 alt="News Image">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </article>
+
+        <aside class="related-articles">
+            <h2>Related Articles</h2>
+            <ul>
+                <li><a href="#">Article 1</a></li>
+                <li><a href="#">Article 2</a></li>
+                <li><a href="#">Article 3</a></li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>
